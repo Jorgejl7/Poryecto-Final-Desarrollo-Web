@@ -1,0 +1,83 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,900;1,100&display=swap');
+
+body{
+  background: #031A29;
+}
+
+.navbar, .navbar-brand, .nav-link{
+    font-weight: bold;
+    background: #D40322;
+    color: white !important
+}
+.nav-link:hover{
+    color: white !important;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.btn-red, .btn-red:hover{
+    background: #D40322 !important;
+    color:white;
+    font-weight: bold;
+}
+
+
+
+.row{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.inicio-container{
+  background: #031A29 !important;
+}
+
+
+.card-inicio{
+  border: none !important;
+  margin-top: 4vw;
+  background: #031A29 !important;
+}
+
+.img-inicio{
+  border-radius: 150px;
+  width: 15vw;
+  margin-left: 12vw;
+}
+
+
+.title-inicio{
+  margin-top: 2vw;
+  color: white;
+  font-family:'Lato';
+  font-weight: bold;
+}
+
+.title-inicio b{
+  color: #D40322;
+}
+
+.btn_, .btn_:hover{
+  background: transparent;
+  border: none;
+      width: 1vw;
+}
+
+.card-inicio p{
+  margin-top: 2vw;
+    text-align: justify;
+  font-family: 'Lato';
+}
+
+.card-inicio .btn{
+  background: #D40322;
+  margin-top: 1vw;
+  color: white;
+  font-weight: bold;
+  width: 30%;
+  margin-left: 14vw;
+}
+
+
